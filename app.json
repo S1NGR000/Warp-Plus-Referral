@@ -1,0 +1,19 @@
+{
+    "name": "warp plus auto refer",
+    "description": "Auto Refer Warp Plus for unlimited referral reward",
+    "repository": "https://github.com/S1NGR000/Warp-Plus-Referral",
+    "keywords": ["warp", "refer"],
+    "success_url": "/",
+    "env": {
+      "CLIENT_ID": {
+        "description": "Referal ID, Get from Menu > Advanced > Diagnostics > CLIENT CONFIGURATION > ID",
+        "value": ""
+      }
+    },
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "free"
+            }
+      }
+}
